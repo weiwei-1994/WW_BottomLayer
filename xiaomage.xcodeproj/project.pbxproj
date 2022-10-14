@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E460E1828F2CE2E003A34B3 /* WWMemoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E460E1728F2CE2E003A34B3 /* WWMemoryController.m */; };
+		3E460E1B28F3C922003A34B3 /* MRCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E460E1A28F3C922003A34B3 /* MRCController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3E6E2C15289A60DE005FF6DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E2C14289A60DE005FF6DB /* AppDelegate.m */; };
 		3E6E2C18289A60DE005FF6DB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E2C17289A60DE005FF6DB /* SceneDelegate.m */; };
 		3E6E2C1B289A60DE005FF6DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E2C1A289A60DE005FF6DB /* ViewController.m */; };
@@ -14,9 +16,26 @@
 		3E6E2C20289A60E3005FF6DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E6E2C1F289A60E3005FF6DB /* Assets.xcassets */; };
 		3E6E2C23289A60E3005FF6DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E6E2C21289A60E3005FF6DB /* LaunchScreen.storyboard */; };
 		3E6E2C26289A60E3005FF6DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E2C25289A60E3005FF6DB /* main.m */; };
+		3E6E2C44289D100D005FF6DB /* WWObjectEssence.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6E2C43289D100D005FF6DB /* WWObjectEssence.m */; };
+		3E79B9C228C878BA00A9F74E /* WWRuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E79B9C128C878BA00A9F74E /* WWRuntimeController.m */; };
+		3E9A665F28AA4AFD00D83DEF /* WWPerson+Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9A665E28AA4AFD00D83DEF /* WWPerson+Test1.m */; };
+		3E9A666228AA4B1B00D83DEF /* WWPerson+Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9A666128AA4B1B00D83DEF /* WWPerson+Test2.m */; };
+		3E9A666528AA4DF600D83DEF /* WWCateoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9A666428AA4DF600D83DEF /* WWCateoryController.m */; };
+		3E9F60CF28E14A21003ED3A9 /* WWAliveThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9F60CE28E14A21003ED3A9 /* WWAliveThread.m */; };
+		3E9F60D228E29E62003ED3A9 /* WWGCDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9F60D128E29E62003ED3A9 /* WWGCDController.m */; };
+		3EA7775328DDA0A30080FD65 /* UIControl+WWClickHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA7775228DDA0A30080FD65 /* UIControl+WWClickHook.m */; };
+		3EA7775628DDB44F0080FD65 /* WWRunLoopController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA7775528DDB44F0080FD65 /* WWRunLoopController.m */; };
+		3EB87C0428B23F80000C5B6C /* WWBlockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB87C0328B23F80000C5B6C /* WWBlockController.m */; };
+		3EE1FF1D28D467FC006FEBDD /* WWCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE1FF1C28D467FC006FEBDD /* WWCat.m */; };
+		3EF77CE928A2422900320084 /* WWKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF77CE828A2422900320084 /* WWKVOController.m */; };
+		3EF77CEC28A2449A00320084 /* WWPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF77CEB28A2449A00320084 /* WWPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E460E1628F2CE2E003A34B3 /* WWMemoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWMemoryController.h; sourceTree = "<group>"; };
+		3E460E1728F2CE2E003A34B3 /* WWMemoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWMemoryController.m; sourceTree = "<group>"; };
+		3E460E1928F3C922003A34B3 /* MRCController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MRCController.h; sourceTree = "<group>"; };
+		3E460E1A28F3C922003A34B3 /* MRCController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRCController.m; sourceTree = "<group>"; };
 		3E6E2C10289A60DE005FF6DB /* xiaomage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xiaomage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E6E2C13289A60DE005FF6DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E6E2C14289A60DE005FF6DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +48,32 @@
 		3E6E2C22289A60E3005FF6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E6E2C24289A60E3005FF6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E6E2C25289A60E3005FF6DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E6E2C42289D100D005FF6DB /* WWObjectEssence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWObjectEssence.h; sourceTree = "<group>"; };
+		3E6E2C43289D100D005FF6DB /* WWObjectEssence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWObjectEssence.m; sourceTree = "<group>"; };
+		3E79B9C028C878BA00A9F74E /* WWRuntimeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWRuntimeController.h; sourceTree = "<group>"; };
+		3E79B9C128C878BA00A9F74E /* WWRuntimeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWRuntimeController.m; sourceTree = "<group>"; };
+		3E9A665D28AA4AFD00D83DEF /* WWPerson+Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WWPerson+Test1.h"; sourceTree = "<group>"; };
+		3E9A665E28AA4AFD00D83DEF /* WWPerson+Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WWPerson+Test1.m"; sourceTree = "<group>"; };
+		3E9A666028AA4B1B00D83DEF /* WWPerson+Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WWPerson+Test2.h"; sourceTree = "<group>"; };
+		3E9A666128AA4B1B00D83DEF /* WWPerson+Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WWPerson+Test2.m"; sourceTree = "<group>"; };
+		3E9A666328AA4DF600D83DEF /* WWCateoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWCateoryController.h; sourceTree = "<group>"; };
+		3E9A666428AA4DF600D83DEF /* WWCateoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWCateoryController.m; sourceTree = "<group>"; };
+		3E9F60CD28E14A21003ED3A9 /* WWAliveThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWAliveThread.h; sourceTree = "<group>"; };
+		3E9F60CE28E14A21003ED3A9 /* WWAliveThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWAliveThread.m; sourceTree = "<group>"; };
+		3E9F60D028E29E62003ED3A9 /* WWGCDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWGCDController.h; sourceTree = "<group>"; };
+		3E9F60D128E29E62003ED3A9 /* WWGCDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWGCDController.m; sourceTree = "<group>"; };
+		3EA7775128DDA0A30080FD65 /* UIControl+WWClickHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+WWClickHook.h"; sourceTree = "<group>"; };
+		3EA7775228DDA0A30080FD65 /* UIControl+WWClickHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+WWClickHook.m"; sourceTree = "<group>"; };
+		3EA7775428DDB44F0080FD65 /* WWRunLoopController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWRunLoopController.h; sourceTree = "<group>"; };
+		3EA7775528DDB44F0080FD65 /* WWRunLoopController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWRunLoopController.m; sourceTree = "<group>"; };
+		3EB87C0228B23F80000C5B6C /* WWBlockController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWBlockController.h; sourceTree = "<group>"; };
+		3EB87C0328B23F80000C5B6C /* WWBlockController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWBlockController.m; sourceTree = "<group>"; };
+		3EE1FF1B28D467FC006FEBDD /* WWCat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWCat.h; sourceTree = "<group>"; };
+		3EE1FF1C28D467FC006FEBDD /* WWCat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWCat.m; sourceTree = "<group>"; };
+		3EF77CE728A2422800320084 /* WWKVOController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWKVOController.h; sourceTree = "<group>"; };
+		3EF77CE828A2422900320084 /* WWKVOController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWKVOController.m; sourceTree = "<group>"; };
+		3EF77CEA28A2449A00320084 /* WWPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WWPerson.h; sourceTree = "<group>"; };
+		3EF77CEB28A2449A00320084 /* WWPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WWPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +117,36 @@
 				3E6E2C21289A60E3005FF6DB /* LaunchScreen.storyboard */,
 				3E6E2C24289A60E3005FF6DB /* Info.plist */,
 				3E6E2C25289A60E3005FF6DB /* main.m */,
+				3E6E2C42289D100D005FF6DB /* WWObjectEssence.h */,
+				3E6E2C43289D100D005FF6DB /* WWObjectEssence.m */,
+				3EF77CE728A2422800320084 /* WWKVOController.h */,
+				3EF77CE828A2422900320084 /* WWKVOController.m */,
+				3EF77CEA28A2449A00320084 /* WWPerson.h */,
+				3EF77CEB28A2449A00320084 /* WWPerson.m */,
+				3E9A665D28AA4AFD00D83DEF /* WWPerson+Test1.h */,
+				3E9A665E28AA4AFD00D83DEF /* WWPerson+Test1.m */,
+				3E9A666028AA4B1B00D83DEF /* WWPerson+Test2.h */,
+				3E9A666128AA4B1B00D83DEF /* WWPerson+Test2.m */,
+				3E9A666328AA4DF600D83DEF /* WWCateoryController.h */,
+				3E9A666428AA4DF600D83DEF /* WWCateoryController.m */,
+				3EB87C0228B23F80000C5B6C /* WWBlockController.h */,
+				3EB87C0328B23F80000C5B6C /* WWBlockController.m */,
+				3E79B9C028C878BA00A9F74E /* WWRuntimeController.h */,
+				3E79B9C128C878BA00A9F74E /* WWRuntimeController.m */,
+				3EE1FF1B28D467FC006FEBDD /* WWCat.h */,
+				3EE1FF1C28D467FC006FEBDD /* WWCat.m */,
+				3EA7775128DDA0A30080FD65 /* UIControl+WWClickHook.h */,
+				3EA7775228DDA0A30080FD65 /* UIControl+WWClickHook.m */,
+				3EA7775428DDB44F0080FD65 /* WWRunLoopController.h */,
+				3EA7775528DDB44F0080FD65 /* WWRunLoopController.m */,
+				3E9F60CD28E14A21003ED3A9 /* WWAliveThread.h */,
+				3E9F60CE28E14A21003ED3A9 /* WWAliveThread.m */,
+				3E9F60D028E29E62003ED3A9 /* WWGCDController.h */,
+				3E9F60D128E29E62003ED3A9 /* WWGCDController.m */,
+				3E460E1628F2CE2E003A34B3 /* WWMemoryController.h */,
+				3E460E1728F2CE2E003A34B3 /* WWMemoryController.m */,
+				3E460E1928F3C922003A34B3 /* MRCController.h */,
+				3E460E1A28F3C922003A34B3 /* MRCController.m */,
 			);
 			path = xiaomage;
 			sourceTree = "<group>";
@@ -146,10 +221,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EF77CEC28A2449A00320084 /* WWPerson.m in Sources */,
+				3E460E1B28F3C922003A34B3 /* MRCController.m in Sources */,
+				3E9F60CF28E14A21003ED3A9 /* WWAliveThread.m in Sources */,
 				3E6E2C1B289A60DE005FF6DB /* ViewController.m in Sources */,
+				3EA7775628DDB44F0080FD65 /* WWRunLoopController.m in Sources */,
+				3EE1FF1D28D467FC006FEBDD /* WWCat.m in Sources */,
+				3EB87C0428B23F80000C5B6C /* WWBlockController.m in Sources */,
 				3E6E2C15289A60DE005FF6DB /* AppDelegate.m in Sources */,
+				3EF77CE928A2422900320084 /* WWKVOController.m in Sources */,
+				3E9A666528AA4DF600D83DEF /* WWCateoryController.m in Sources */,
+				3E9F60D228E29E62003ED3A9 /* WWGCDController.m in Sources */,
+				3EA7775328DDA0A30080FD65 /* UIControl+WWClickHook.m in Sources */,
+				3E9A665F28AA4AFD00D83DEF /* WWPerson+Test1.m in Sources */,
+				3E9A666228AA4B1B00D83DEF /* WWPerson+Test2.m in Sources */,
 				3E6E2C26289A60E3005FF6DB /* main.m in Sources */,
+				3E460E1828F2CE2E003A34B3 /* WWMemoryController.m in Sources */,
 				3E6E2C18289A60DE005FF6DB /* SceneDelegate.m in Sources */,
+				3E79B9C228C878BA00A9F74E /* WWRuntimeController.m in Sources */,
+				3E6E2C44289D100D005FF6DB /* WWObjectEssence.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
